@@ -1,0 +1,3 @@
+#!/Users/sf/Desktop/RU/Capstone/SourceCode/Web/venv/bin/python
+from numba.pycc import main
+main()

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<!-- ========== VIEWPORT META ========== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- ========== PAGE TITLE ========== -->
+	<title>Music Transcription</title>
+
+	<!-- ========== META TAGS ========== -->
+	<meta name="description" content="Music Transcription">
+	<meta name="keywords" content="landing page, responsive, onepage">
+	<meta name="author" content="Sifan Yuan">
+
+	<!-- ========== FAVICON ========== -->
+	<link rel="shortcut icon" href="/static/img/favicon.png">
+
+	<!-- ========== MINIFIED VENDOR CSS ========== -->
+	<link rel="stylesheet" href="/static/css/plugins.css">
+
+	<!-- ========== MAIN CSS ========== -->
+	<link href="/static/css/style.css" rel="stylesheet">
+	<link href="/static/css/responsive.css" rel="stylesheet">
+
+
+  	<!--[if lt IE 9]>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <![endif]-->
+
+</head><!--/head-->
+<body id="main">
+
+	<!-- ========== HEADER ========== -->
+	<header class="box-header sticky">
+		<div class="container">
+			<div class="row box-header-wrap">
+					
+					<nav class="navbar navbar-default">
+						<div class="navbar-header pull-left">
+{#							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">#}
+{#								<span class="sr-only">Toggle navigation</span>#}
+{#								<span class="icon-bar"></span>#}
+{#								<span class="icon-bar"></span>#}
+{#								<span class="icon-bar"></span>#}
+{#							</button>#}
+							<a class="navbar-brand" href="#">  MUSIC TRANSCRIPTION</a>
+						</div>
+						
+						<div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+							<ul class="main-nav nav navbar-nav text-uppercase text-right">
+								<li><a href="#home">home</a></li>
+								<li><a href="#about">about</a></li>
+								<li><a href="#features">features</a></li>
+								<li><a href="#demo">demo</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</nav>
+				<!-- End desktop nav -->
+			</div> <!-- //.row -->
+		 </div> <!-- //.container -->
+	</header>
+	<!-- //End Header -->
+
+	<!-- ========== TEXT BANNER SECTION ========== -->
+	<section id="home" class="banner-area">
+		<div class="container">
+			<div class="row">
+				<div class="banner-text col-sm-7">
+					<h1 class="top">Music Transcription</span></h1>
+					<h1 class="slogan">Project for everyone to create <span>their own music</span></h1>
+					<p>In this project, we created an application that can make music sheet automatically with a given
+                        part of audio instead of writing it manually, which saves time and doesn't require expertise.</p>
+
+					<a href="#" class="btn btn-border text-uppercase">discover more from GitHub</a>
+				</div>
+				
+{#				<div class="banner-image col-sm-4 col-sm-offset-1">#}
+{#					<img src="/static/img/banner-image.png" alt="" class="img-responsive" />#}
+{#				</div>#}
+			</div>
+		</div>
+	</section>
+	<!-- //End banner area -->
+
+	<!-- ========== TEXT OVERVIEW SECTION ========== -->
+	<section id="about" class="overview-area text-center">
+		<div class="container">
+			<div class="row">
+				<div class="section-title col-sm-8 col-sm-offset-2">
+					<h2 class="text-uppercase branding-color">overview
+						<span>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+						</span>
+					</h2>
+					<p>We divided the whole project into 3 parts, shown as following</p>
+				</div>
+				
+				<div class="overviews">
+					<div class="col-md-4 col-sm-6">
+						<div class="single">
+							<i class="fa fa-microphone"></i>
+							<h4 class="text-uppercase">Audio Record</h4>
+							<p>In this part, we play a part of an audio and let the computer record it.
+                                Then we save it into a wav file, whose features will be extracted.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single">
+							<i class="fa fa-file-audio-o"></i>
+							<h4 class="text-uppercase">Music Transcript</h4>
+							<p>In this part, we use the audio we collected from the previous part to do the
+                                transcription by utilizing its spectrogram and chromagram.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="single">
+							<i class="fa fa-music"></i>
+							<h4 class="text-uppercase">Output MIDI</h4>
+							<p>After the transcription, we have several numerical matrix representing features of
+                                frequency, which we can use to create a MIDI file.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //End overview area -->
+
+	<!-- ========== HOW IT WORKS SECTION ========== -->
+	<section id="features" class="how-works-area">
+		<div class="container">
+			<div class="row">
+				<div class="section-title col-sm-8 col-sm-offset-2 text-center">
+					<h2 class="text-uppercase branding-color">how it works
+						<span>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+						</span>
+					</h2>
+					<p>In this part, we will describe the detailed principle of our project.</p>
+				</div>
+				
+				<div class="left col-sm-6">
+					<div class="single">
+						<h3 class="title text-uppercase branding-color">Q1: Why do we want to do it?</h3>
+						<p>There are already existing software that allow people to write music sheet manually. However,
+                            there is few apps that can finish music transcription automatically. Existing works is
+                            time-consuming and require expertise on music, which most people lack of. Our apps can save
+                            people's time and provide help for those who do not know much about but is highly interested in music.</p>
+					</div>
+					<div class="single">
+						<h3 class="title text-uppercase branding-color">Q2: How do we extract features?</h3>
+						<p>First we record the given audio into a wav file. As we know, in music, different pitches represent
+                            different frequencies. We first draw the chromagram and spectrogram of this wav file.
+                            Then, with a sliding window, we combine the chroma feature and the spectrogram of the music
+                            together to extract digital values showing the relationship between time and frequency.</p>
+					</div>
+					<div class="single">
+						<h3 class="title text-uppercase branding-color">Q3: How do we utilize the extracted features?</h3>
+						<p>We took advantage of the library mido in Python. In this library, each note has its own
+                            number, which can be calculated by frequency. In the previous step, we already know the features
+                            of time and frequency. Based on that, we can calculate the number, which will be transformed
+                            to a note and the time features represent how long each note lasts. Then we have all the
+                            elements we need to create a MIDI.</p>
+					</div>
+					<div class="single">
+						<h3 class="title text-uppercase branding-color">Q4: What is MIDI?</h3>
+						<p>MIDI is a technical standard that describes a communications protocol, digital interface, and
+                            electrical connectors that connect a wide variety of electronic musical instruments, computers,
+                            and related audio devices for playing, editing and recording music. To make it easier to understand,
+                            MIDI is the music sheet which can be read and understood by the computer.</p>
+					</div>
+				</div>
+				
+				<div class="right col-sm-6">
+					<img src="/static/img/Spectrogram.png" alt="" class="img-responsive" style="margin-top: 50px; margin-bottom:100px"/>
+					<img src="/static/img/Chromagram.png" alt="" class="img-responsive" style="margin-top: 50px; margin-bottom:100px"/>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //End how it works area -->
+
+	<!-- ========== DEMO SECTION ========== -->
+	<section id="demo" class="banner-area text-center">
+		<div class="row">
+				<div class="banner-text col-md-6 col-md-offset-3">
+					<h1 class="top">Demo Part</span></h1>
+					<h3 class="slogan">Click START button to start recording and STOP button to stop recording.
+                        <span>After recording, click TRANS button to transfer the recorded wav file into a MIDI file</span></h3>
+					<a class="btn btn-border text-uppercase" onclick="Record()">Start</a>
+					<a class="btn btn-border text-uppercase" onclick="stopRecord()">Stop</a>
+					<a class="btn btn-border text-uppercase" onclick="trans()">Trans</a>
+				</div>
+        </div>
+	</section>
+	<!-- //End OVERLAY VIDEO area -->
+	<!-- //End MEET WITH OUR TEAM area -->
+
+	<!-- ========== FOOTER SECTION ========== -->
+	<section class="footer-area white-color">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-sm-4 short-text">
+{#					<a href="#"><img src="/static/img/logo.png" alt="" class="img-responsive" /></a>#}
+					
+					<h3>Thanks to our advisers, professor Yingying Chen, and her PhD student, Yilin Yang!</h3>
+
+					<div class="clearfix"></div>
+					
+{#					<ul class="socials list-unstyled">#}
+{#						<li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+{#						<li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+{#						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+{#						<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>#}
+{#						<li><a href="#"><i class="fa fa-skype"></i></a></li>#}
+{#						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>#}
+{#						<li><a href="#"><i class="fa fa-behance"></i></a></li>#}
+{#					</ul>#}
+				</div>
+				
+				
+				
+				<div class="col-lg-2 col-sm-3 contact-info">
+					<h4 class="text-uppercase">contact info</h4>
+					
+					<div class="single">
+						<h5 class="branding-color"><i class="fa fa-home"></i> Presenter</h5>
+						<p>Haocong Wang<br/>
+						Sifan Yuan</p>
+					</div>
+{#					<div class="single">#}
+{#						<h5 class="branding-color"><i class="fa fa-phone"></i> Phone</h5>#}
+{#						<p>+987 7012 2185 8623<br/>#}
+{#						+987 7012 2185 8623</p>#}
+{#					</div>#}
+					<div class="single">
+						<h5 class="branding-color"><i class="fa fa-envelope"></i> Email</h5>
+						<p>mw814@scarletmail.rutgers.edu</p>
+                        <p>sy609@scarletmail.rutgers.edu</p>
+					</div>
+{#					<div class="single">#}
+{#						<h5 class="branding-color"><i class="fa fa-desktop"></i> Web</h5>#}
+{#						<p>www.topapps.com</p>#}
+{#					</div>#}
+				</div>
+			</div>
+		</div>
+		
+{#		<div class="copyright text-center">#}
+{#			<p class="white-color">&copy; Copyright 2017 - All Rights Reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>#}
+{#		</div>#}
+	</section>
+	<!-- //End FOOTER area -->
+
+	<!-- ==================   SCRIPT PART   ================= -->
+	<script type="text/javascript" src="/static/js/vendor.js"></script>
+	
+	<script type="text/javascript" src="/static/js/plugins.js"></script>
+	
+	<script type="text/javascript" src="/static/js/switcher.js"></script>
+	<script type="text/javascript" src="/static/js/app.js"></script>
+	<script type="text/javascript" src="/static/js/MyScript.js"></script>
+</body>
+</html>
